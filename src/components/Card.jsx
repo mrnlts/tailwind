@@ -24,7 +24,7 @@ export default function Card(props) {
     }
 
     return (
-        <div className="w-96 mx-auto my-8 p-4 rounded-lg bg-red-50 font-sans">
+        <div className="w-80 mx-auto my-8 p-4 rounded-lg bg-red-50 font-sans">
             <img src={img} alt="img" className="w-full h-60 object-cover rouded-lg" />
             <div className="flex flex-col py-4">
                 <div className="flex justify-end pb-4">
