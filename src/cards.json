@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "_id": 0,
+            "img": "https://images.unsplash.com/photo-1566377869454-20ae52bdf7f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1249&q=80",
+            "likes": 245,
+            "user": "joey_pastrana",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente est beatae aspernatur excepturi obcaecati consequuntur quas numquam. Nostrum earum, repudiandae at quidem minus, error voluptatem tempore sequi aperiam libero non!"
+        },
+        {
+            "_id": 1,
+            "img": "https://images.unsplash.com/photo-1566281172416-18a6a89f7b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+            "likes": 423,
+            "user": "meganKlint",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente est beatae aspernatur excepturi obcaecati consequuntur quas numquam. Nostrum earum, repudiandae at quidem minus, error voluptatem tempore sequi aperiam libero non!"
+        },
+        {
+            "_id": 2,
+            "img": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg",
+            "likes": 423,
+            "user": "mrnlts",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente est beatae aspernatur excepturi obcaecati consequuntur quas numquam. Nostrum earum, repudiandae at quidem minus, error voluptatem tempore sequi aperiam libero non!"
+        },
+        {
+            "_id": 3,
+            "img": "https://images.unsplash.com/photo-1566216645689-ea2278e1e449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+            "likes": 155,
+            "user": "photoIsnt",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente est beatae aspernatur excepturi obcaecati consequuntur quas numquam. Nostrum earum, repudiandae at quidem minus, error voluptatem tempore sequi aperiam libero non!"
+        },
+        {
+            "_id": 4,
+            "img": "https://cellularnews.com/wp-content/uploads/2020/03/02-cool-cat-wallpaper-325x485.jpg",
+            "likes": 7014,
+            "user": "mrnlts",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente est beatae aspernatur excepturi obcaecati consequuntur quas numquam. Nostrum earum, repudiandae at quidem minus, error voluptatem tempore sequi aperiam libero non!"
+        },
+        {
+            "_id": 5,
+            "img": "https://images.unsplash.com/photo-1566136646093-bf14a769d8d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+            "likes": 354,
+            "user": "puma_pics",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente est beatae aspernatur excepturi obcaecati consequuntur quas numquam. Nostrum earum, repudiandae at quidem minus, error voluptatem tempore sequi aperiam libero non!"
+        }
+    ]
+}
