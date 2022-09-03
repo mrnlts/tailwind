@@ -10,13 +10,17 @@ export default function Card(props) {
     const [imgLikes, setLikes] = useState(likes);
     const [imgDescription, setImgDescription] = useState(description);
     
-    const handleLike = () => {
-        setIsLiked(prev => !prev)
-        if (!isLiked) {setLikes(prev => prev + 1)};
+     const handleLike = () => {
+        if (!isLiked) {
+            setImgLikes(prev => prev+1)
+        } else {
+            setImgLikes(prev => prev-1)
+        }
+        setIsLiked(prev => !prev);
     }
     
     const handleEdit = () => {
-        setIsEdit(prev => !isEdit);
+        setIsEdit(prev => !prev);
     }
     
     const handleDescription = (e) => {
@@ -24,7 +28,7 @@ export default function Card(props) {
     }
 
     return (
-        <div className="w-80 mx-auto my-8 p-4 rounded-lg bg-red-50 font-sans">
+        <div className="w-80 mx-auto my-8 p-4 rounded-lg bg-red-50">
             <img src={img} alt="img" className="w-full h-60 object-cover rouded-lg" />
             <div className="flex flex-col py-4">
                 <div className="flex justify-end pb-4">

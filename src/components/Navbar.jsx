@@ -9,7 +9,7 @@ export default function Navbar() {
     };
 
     return (
-        <div className="flex items-center justify-between">
+        <div className="flex items-center px-8">
             <FontAwesomeIcon icon={faBars} className={`text-3xl ${!showNavbar && "text-white"}`} onClick={handleNavbar}/>
             <nav className={"flex w-full justify-around " + (!showNavbar ? "hidden" : "")}>
                 <Link to="/" onClick={handleNavbar}>Home</Link>

@@ -10,7 +10,7 @@ export default function Signup() {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        console.log(name, value)
+        
         setUserData(prev => {
             return {
                 ...prev,
@@ -40,8 +40,6 @@ export default function Signup() {
                     fullName: nameRegex.test(value)
                 }
             })
-
-            console.log("here", validValues)
         }
     }
 
@@ -50,16 +48,17 @@ export default function Signup() {
     const invalidStyle = "text-red-500 border-red-500";
 
     return (
-        <div className="h-screen">
+        <div className="h-screen px-4">
             <form className="h-96 flex flex-col align-center justify-around mt-4">
                 <label>Email</label>
                 <input
                     type="text"
                     name="email"
                     value={userData.email}
-                    placeholder={"example@gmail.com"}
+                    placeholder="example@gmail.com"
                     className={inputStyle + (validValues.email === true ? validStyle : validValues.email === false ? invalidStyle : "")}
                     onChange={handleChange}
+                    required
                 />
                 
                 <label>Password</label>
@@ -70,6 +69,7 @@ export default function Signup() {
                     placeholder={"***********"}
                     className={inputStyle + (validValues.password === true ? validStyle : validValues.password === false ? invalidStyle : "")}
                     onChange={handleChange}
+                    required
                 />
                 
                 <label>Full name</label>
@@ -80,6 +80,7 @@ export default function Signup() {
                     placeholder={"John Doe"}
                     className={inputStyle + (validValues.fullName === true ? validStyle : validValues.fullName === false ? invalidStyle : "")}
                     onChange={handleChange}
+                    required
                 />
                 
 

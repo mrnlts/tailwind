@@ -7,11 +7,12 @@ import Signup from "./views/Signup";
 
 function App() {
   return (
-    <div className="bg-red-100 font-sans p-8">
+    <div className="bg-red-100 font-sans py-8">
       <Navbar />
       <Routes>
         <Route path="/" element={<Main cards={cards} />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/beta" element={<Beta />} />
       </Routes>
     </div>
   );
