@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import cards from "./cards.json";
 import Navbar from "./components/Navbar";
+import Beta from "./views/Beta";
 import Main from "./views/Main";
 import Signup from "./views/Signup";
 

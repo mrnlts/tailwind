@@ -7,7 +7,7 @@ export default function Card(props) {
     const { info: { img, likes, user, description } } = props;
     const [isLiked, setIsLiked] = useState(false);
     const [isEdit, setIsEdit] = useState(false);
-    const [imgLikes, setLikes] = useState(likes);
+    const [imgLikes, setImgLikes] = useState(likes);
     const [imgDescription, setImgDescription] = useState(description);
     
      const handleLike = () => {
